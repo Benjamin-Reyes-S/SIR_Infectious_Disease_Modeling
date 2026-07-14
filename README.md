@@ -4,3 +4,9 @@
    
 3. start powershell and run start.ps1 
    ./start.ps1 
+
+Alternative in case Docker does not work:
+
+conda create -n scientific-env python=3.12 numpy matplotlib scipy ipywidgets ipython jupyterlab -y
+conda activate scientific-env
+jupyter lab
